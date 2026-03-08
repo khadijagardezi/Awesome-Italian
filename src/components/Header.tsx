@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { BookOpen, Home, GraduationCap } from "lucide-react";
+import { BookOpen, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
@@ -15,9 +15,6 @@ export function Header() {
           </span>
         </Link>
         <nav className="flex items-center gap-1">
-          <Button variant={location.pathname === "/" ? "default" : "ghost"} size="sm" asChild>
-            <Link to="/"><Home className="mr-1 h-4 w-4" />Home</Link>
-          </Button>
           <Button variant={location.pathname.startsWith("/levels") ? "default" : "ghost"} size="sm" asChild>
             <Link to="/levels"><GraduationCap className="mr-1 h-4 w-4" />Levels</Link>
           </Button>
