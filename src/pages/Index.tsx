@@ -134,7 +134,7 @@ export default function Index() {
           <h2 className="mb-12 text-center font-display text-3xl font-bold text-foreground">More Resources</h2>
           <div className="grid gap-6 md:grid-cols-3">
             <a href="https://www.youtube.com/results?search_query=learn+italian" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                 <Youtube className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">YouTube Channels</h3>
@@ -142,7 +142,7 @@ export default function Index() {
             </a>
             
             <a href="https://open.spotify.com/search/learn%20italian/podcasts" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-secondary/10 text-secondary">
                 <Mic className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">Podcasts</h3>
@@ -150,7 +150,7 @@ export default function Index() {
             </a>
 
             <a href="https://blogs.transparent.com/italian/" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-accent/20 text-accent-foreground">
                 <Globe className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">Blogs & Reading</h3>
