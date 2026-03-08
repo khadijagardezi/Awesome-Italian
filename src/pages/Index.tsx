@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOpen, MessageCircle, Trophy, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, MessageCircle, Trophy, Zap, Type, BookText } from "lucide-react";
 import { courseData } from "@/data/courseData";
 import { useProgress } from "@/hooks/useProgress";
 
@@ -71,6 +71,31 @@ export default function Index() {
         <div className="container">
           <h2 className="mb-12 text-center font-display text-3xl font-bold text-foreground">Your Learning Journey</h2>
           <div className="grid gap-6 md:grid-cols-3">
+            {/* Pre-A1 Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0, duration: 0.5 }}
+            >
+              <div className="group block rounded-2xl border-2 border-dashed border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
+                <div className="mb-4 flex items-center justify-between">
+                  <span className="rounded-full bg-secondary/10 px-3 py-1 text-sm font-bold text-secondary">Pre-A1</span>
+                  <span className="text-sm text-muted-foreground">Basics</span>
+                </div>
+                <h3 className="mb-2 font-display text-xl font-bold text-card-foreground">Getting Started</h3>
+                <p className="mb-4 text-sm text-muted-foreground">Learn the Italian alphabet, pronunciation rules, and essential grammar foundations.</p>
+                <div className="flex gap-2">
+                  <Button variant="outline" size="sm" asChild>
+                    <Link to="/alphabet"><Type className="mr-1 h-4 w-4" />Alphabet</Link>
+                  </Button>
+                  <Button variant="outline" size="sm" asChild>
+                    <Link to="/grammar"><BookText className="mr-1 h-4 w-4" />Grammar</Link>
+                  </Button>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Course levels */}
             {courseData.map((level, i) => {
               const pct = getLevelProgress(level.id, level.chapters.length);
               return (
@@ -78,12 +103,10 @@ export default function Index() {
                   key={level.id}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.15, duration: 0.5 }}>
-                  
+                  transition={{ delay: (i + 1) * 0.15, duration: 0.5 }}>
                   <Link
                     to={`/levels/${level.id}`}
                     className="group block rounded-2xl border-2 border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
-                    
                     <div className="mb-4 flex items-center justify-between">
                       <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-bold text-primary">
                         {level.name}
@@ -96,12 +119,10 @@ export default function Index() {
                       <div
                         className="h-full rounded-full bg-primary transition-all"
                         style={{ width: `${pct}%` }} />
-                      
                     </div>
                     <span className="mt-2 block text-xs text-muted-foreground">{pct}% complete</span>
                   </Link>
                 </motion.div>);
-
             })}
           </div>
         </div>
