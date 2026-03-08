@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { BookOpen, GraduationCap } from "lucide-react";
+import { BookOpen, GraduationCap, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
@@ -20,6 +20,9 @@ export function Header() {
           </Button>
           <Button variant={location.pathname === "/flashcards" ? "default" : "ghost"} size="sm" asChild>
             <Link to="/flashcards"><BookOpen className="mr-1 h-4 w-4" />Flashcards</Link>
+          </Button>
+          <Button variant={location.pathname === "/glossary" ? "default" : "ghost"} size="sm" asChild>
+            <Link to="/glossary"><List className="mr-1 h-4 w-4" />Glossary</Link>
           </Button>
         </nav>
       </div>
