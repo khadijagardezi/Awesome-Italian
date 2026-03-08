@@ -12,6 +12,7 @@ import Glossary from "./pages/Glossary";
 import Alphabet from "./pages/Alphabet";
 import Grammar from "./pages/Grammar";
 import NotFound from "./pages/NotFound";
+import Resources from "./pages/Resources";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/glossary" element={<Glossary />} />
           <Route path="/alphabet" element={<Alphabet />} />
           <Route path="/grammar" element={<Grammar />} />
+          <Route path="/resources/:category" element={<Resources />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
