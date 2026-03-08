@@ -47,7 +47,7 @@ export default function Index() {
       {/* Features */}
       <section className="py-16">
         <div className="container">
-          <h2 className="mb-12 text-center font-display text-3xl font-bold text-foreground">Why ParlaItaliano?</h2>
+          <h2 className="mb-12 text-center font-display text-3xl font-bold text-foreground">Why Parla!?</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {features.map((f, i) =>
             <motion.div
@@ -109,7 +109,7 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
-        <p>🇮🇹 ParlaItaliano — Learn Italian, one conversation at a time.</p>
+        <p>🇮🇹 Parla! — Learn Italian, one conversation at a time.</p>
       </footer>
     </div>);
 

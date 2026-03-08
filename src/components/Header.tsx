@@ -11,7 +11,7 @@ export function Header() {
         <Link to="/" className="flex items-center gap-2">
           <span className="text-2xl">🇮🇹</span>
           <span className="font-display text-xl font-bold text-foreground">
-            Parla<span className="text-primary">Italiano</span>
+            Parla<span className="text-primary">!</span>
           </span>
         </Link>
         <nav className="flex items-center gap-1">
