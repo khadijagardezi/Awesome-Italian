@@ -133,29 +133,29 @@ export default function Index() {
         <div className="container">
           <h2 className="mb-12 text-center font-display text-3xl font-bold text-foreground">More Resources</h2>
           <div className="grid gap-6 md:grid-cols-3">
-            <a href="https://www.youtube.com/results?search_query=learn+italian" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
+            <Link to="/resources/youtube" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                 <Youtube className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">YouTube Channels</h3>
               <p className="text-sm text-muted-foreground">Learn Italian with Lucrezia, Italy Made Easy, and more great video content.</p>
-            </a>
+            </Link>
             
-            <a href="https://open.spotify.com/search/learn%20italian/podcasts" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
+            <Link to="/resources/podcasts" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-secondary/10 text-secondary">
                 <Mic className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">Podcasts</h3>
               <p className="text-sm text-muted-foreground">Coffee Break Italian, News in Slow Italian, and other audio resources.</p>
-            </a>
+            </Link>
 
-            <a href="https://blogs.transparent.com/italian/" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
+            <Link to="/resources/blogs" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-accent/20 text-accent-foreground">
                 <Globe className="h-6 w-6" />
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">Blogs & Reading</h3>
               <p className="text-sm text-muted-foreground">Articles, short stories, and cultural insights to improve your reading.</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
