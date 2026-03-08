@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { BookOpen, GraduationCap } from "lucide-react";
+import { BookOpen, GraduationCap, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
