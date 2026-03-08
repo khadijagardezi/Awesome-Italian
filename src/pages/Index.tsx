@@ -26,8 +26,8 @@ export default function Index() {
               Learn Italian,<br />
               
             </h1>
-            <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-              Your personal journey from "Ciao!" to flowing conversations. Master Italian at your own pace through real-life scenarios tailored to you.
+            <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">Your personal journey from "Ciao!" to flowing conversations.
+
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button variant="hero" size="lg" asChild>
