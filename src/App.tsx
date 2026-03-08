@@ -26,6 +26,7 @@ const App = () => (
           <Route path="/levels/:levelId" element={<Levels />} />
           <Route path="/lesson/:chapterId" element={<Lesson />} />
           <Route path="/flashcards" element={<Flashcards />} />
+          <Route path="/glossary" element={<Glossary />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

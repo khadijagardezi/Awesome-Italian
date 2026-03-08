@@ -21,6 +21,9 @@ export function Header() {
           <Button variant={location.pathname === "/flashcards" ? "default" : "ghost"} size="sm" asChild>
             <Link to="/flashcards"><BookOpen className="mr-1 h-4 w-4" />Flashcards</Link>
           </Button>
+          <Button variant={location.pathname === "/glossary" ? "default" : "ghost"} size="sm" asChild>
+            <Link to="/glossary"><List className="mr-1 h-4 w-4" />Glossary</Link>
+          </Button>
         </nav>
       </div>
     </header>
