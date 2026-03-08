@@ -20,7 +20,7 @@ export function DialogueSection({ dialogue }: Props) {
 
   return (
     <div className="space-y-6">
-      <div className="rounded-xl bg-terracotta-light p-4">
+      <div className="rounded-xl bg-italia-green-light p-4">
         <h3 className="font-display text-lg font-bold text-foreground">{dialogue.title}</h3>
         <p className="text-sm text-muted-foreground">{dialogue.context}</p>
       </div>
