@@ -27,8 +27,7 @@ export default function Index() {
               
             </h1>
             <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-              From "Ciao!" to flowing conversations. Master Italian through real-life scenarios — 
-              travel, restaurants, university, and daily life.
+              Your personal journey from "Ciao!" to flowing conversations. Master Italian at your own pace through real-life scenarios tailored to you.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button variant="hero" size="lg" asChild>
