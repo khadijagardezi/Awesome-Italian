@@ -2270,3 +2270,6 @@ export const courseData: Level[] = [
     ],
   },
 ];
+
+import { advancedLevels } from "./advancedLevels";
+courseData.push(...advancedLevels);
