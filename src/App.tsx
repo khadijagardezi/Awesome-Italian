@@ -9,6 +9,8 @@ import Levels from "./pages/Levels";
 import Lesson from "./pages/Lesson";
 import Flashcards from "./pages/Flashcards";
 import Glossary from "./pages/Glossary";
+import Alphabet from "./pages/Alphabet";
+import Grammar from "./pages/Grammar";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +29,8 @@ const App = () => (
           <Route path="/lesson/:chapterId" element={<Lesson />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/glossary" element={<Glossary />} />
+          <Route path="/alphabet" element={<Alphabet />} />
+          <Route path="/grammar" element={<Grammar />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
