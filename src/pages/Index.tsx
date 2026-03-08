@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-terracotta-light via-background to-gold-light py-20 md:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-italia-green-light via-background to-italia-red-light py-20 md:py-32">
         <div className="container relative z-10 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <span className="mb-4 inline-block animate-float text-6xl">🇮🇹</span>
