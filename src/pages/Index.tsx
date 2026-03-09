@@ -75,16 +75,17 @@ export default function Index() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0, duration: 0.5 }}>
+              transition={{ delay: 0, duration: 0.5 }}
+              className="flex h-full">
               
-              <div className="group block rounded-2xl border-2 border-dashed border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
+              <div className="group flex w-full flex-col rounded-2xl border-2 border-dashed border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="rounded-full bg-secondary/10 px-3 py-1 text-sm font-bold text-secondary">Pre-A1</span>
                   <span className="text-sm text-muted-foreground">Basics</span>
                 </div>
                 <h3 className="mb-2 font-display text-xl font-bold text-card-foreground">Getting Started</h3>
-                <p className="mb-4 text-sm text-muted-foreground">Learn the Italian alphabet, pronunciation rules, and essential grammar foundations.</p>
-                <div className="flex gap-2">
+                <p className="mb-4 flex-grow text-sm text-muted-foreground">Learn the Italian alphabet, pronunciation rules, and essential grammar foundations.</p>
+                <div className="mt-auto flex gap-2">
                   <Button variant="outline" size="sm" asChild>
                     <Link to="/alphabet"><Type className="mr-1 h-4 w-4" />Alphabet</Link>
                   </Button>
@@ -103,10 +104,11 @@ export default function Index() {
                   key={level.id}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: (i + 1) * 0.15, duration: 0.5 }}>
+                  transition={{ delay: (i + 1) * 0.15, duration: 0.5 }}
+                  className="flex h-full">
                   <Link
                     to={`/levels/${level.id}`}
-                    className="group block rounded-2xl border-2 border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
+                    className="group flex w-full flex-col rounded-2xl border-2 border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
                     <div className="mb-4 flex items-center justify-between">
                       <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-bold text-primary">
                         {level.name}
@@ -114,13 +116,15 @@ export default function Index() {
                       <span className="text-sm text-muted-foreground">{level.chapters.length} chapters</span>
                     </div>
                     <h3 className="mb-2 font-display text-xl font-bold text-card-foreground">{level.label}</h3>
-                    <p className="mb-4 text-sm text-muted-foreground">{level.description}</p>
-                    <div className="h-2 overflow-hidden rounded-full bg-muted">
-                      <div
-                        className="h-full rounded-full bg-primary transition-all"
-                        style={{ width: `${pct}%` }} />
+                    <p className="mb-4 flex-grow text-sm text-muted-foreground">{level.description}</p>
+                    <div className="mt-auto">
+                      <div className="h-2 overflow-hidden rounded-full bg-muted">
+                        <div
+                          className="h-full rounded-full bg-primary transition-all"
+                          style={{ width: `${pct}%` }} />
+                      </div>
+                      <span className="mt-2 block text-xs text-muted-foreground">{pct}% complete</span>
                     </div>
-                    <span className="mt-2 block text-xs text-muted-foreground">{pct}% complete</span>
                   </Link>
                 </motion.div>);
             })}
