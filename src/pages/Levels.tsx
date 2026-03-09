@@ -9,6 +9,9 @@ export default function Levels() {
   const { isChapterCompleted, getLevelProgress } = useProgress();
   const { levelId } = useParams();
 
+  const currentIndex = courseData.findIndex(l => l.id === levelId);
+  const nextLevel = currentIndex >= 0 && currentIndex < courseData.length - 1 ? courseData[currentIndex + 1] : null;
+
   const displayedLevels = levelId 
     ? courseData.filter(l => l.id === levelId)
     : courseData;
@@ -16,16 +19,27 @@ export default function Levels() {
   return (
     <div className="min-h-screen py-12">
       <div className="container max-w-4xl">
-        {levelId && (
-          <Button variant="ghost" asChild className="mb-6 -ml-4">
-            <Link to="/levels">
+        <div className="mb-6 flex flex-wrap items-center gap-2 -ml-4">
+          <Button variant="ghost" asChild>
+            <Link to="/">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to all levels
+              Home
             </Link>
           </Button>
+          {levelId && (
+            <Button variant="ghost" asChild>
+              <Link to="/levels">
+                All Levels
+              </Link>
+            </Button>
+          )}
+        </div>
+        {!levelId && (
+          <>
+            <h1 className="mb-2 font-display text-3xl font-bold text-foreground">Course Levels</h1>
+            <p className="mb-10 text-muted-foreground">Progress through A1 → A2 → B1 and become conversational in Italian.</p>
+          </>
         )}
-        <h1 className="mb-2 font-display text-3xl font-bold text-foreground">Course Levels</h1>
-        <p className="mb-10 text-muted-foreground">Progress through A1 → A2 → B1 and become conversational in Italian.</p>
 
         <div className="space-y-12">
           {displayedLevels.map((level) => {
@@ -76,6 +90,16 @@ export default function Levels() {
             );
           })}
         </div>
+
+        {levelId && nextLevel && (
+          <div className="mt-12 flex justify-center">
+            <Button variant="outline" size="lg" asChild>
+              <Link to={`/levels/${nextLevel.id}`}>
+                Next Level: {nextLevel.name} <ChevronRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
