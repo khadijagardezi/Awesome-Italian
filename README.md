@@ -1,4 +1,4 @@
-# 🇮🇹 Awesome Italian
+# Awesome Italian
 
 A curated repository for exploring Italian language learning resources and the Italian technology ecosystem.
 
@@ -7,7 +7,7 @@ This project collects resources to help you:
 - discover Italian tech companies and open source
 - explore universities, research labs, and communities
 
-## 📚 Italian Language Learning
+## Italian Language Learning
 
 Structured learning resources organized by CEFR levels.
 
@@ -27,47 +27,47 @@ Each level includes:
 - flashcards
 - example resources
 
-## 🎧 Extra Learning Resources
+## Extra Learning Resources
 
-### 📺 YouTube
+### YouTube
 Italian learning channels and educational content.
 
-### 📰 Blogs
+### Blogs
 Blogs about Italian language, culture, and learning strategies.
 
-### 🎧 Podcasts
+### Podcasts
 Podcasts for improving listening comprehension and discovering Italian culture.
 
-### 🎬 Movies & TV Series
+### Movies & TV Series
 Recommended Italian movies and series for immersive learning.
 
-## 🚀 Italian Tech Ecosystem (coming soon)
+## Italian Tech Ecosystem (coming soon)
 
 This section will highlight technology and innovation in Italy.
 
-### 🧑‍💻 Open Source Projects
+### Open Source Projects
 Notable open-source tools created by Italian developers.
 
-### 🏢 Tech Companies
+### Tech Companies
 Italian startups and major technology companies.
 
-### 🎓 Universities
+### Universities
 Universities with strong programs in computer science, engineering, and technology.
 
-### 🔬 Research Labs
+### Research Labs
 Research groups working in:
 - artificial intelligence
 - robotics
 - space technology
 - advanced computing
 
-### 🌐 Communities
+### Communities
 Italian developer communities and online groups.
 
-### 🎤 Conferences & Events
+### Conferences & Events
 Technology conferences, meetups, and developer events in Italy.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome.
 You can help by:
@@ -78,6 +78,6 @@ You can help by:
 
 Open an issue or submit a pull request.
 
-## ⭐ Support
+## Support
 
 If you find this repository useful, consider giving it a star to help others discover it.
