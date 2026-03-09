@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# 🇮🇹 Awesome Italian
 
-## Project info
+A curated repository for exploring Italian language learning resources and the Italian technology ecosystem.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project collects resources to help you:
+- learn Italian from Pre-A1 to C2
+- discover Italian tech companies and open source
+- explore universities, research labs, and communities
 
-## How can I edit this code?
+## 📚 Italian Language Learning
 
-There are several ways of editing your application.
+Structured learning resources organized by CEFR levels.
 
-**Use Lovable**
+### Levels
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Pre-A1** – Absolute beginner
+- **A1** – Basic words and greetings
+- **A2** – Everyday conversation
+- **B1** – Intermediate grammar and communication
+- **B2** – Advanced grammar and fluency
+- **C1** – Professional and academic Italian
+- **C2** – Near-native mastery
 
-Changes made via Lovable will be committed automatically to this repo.
+Each level includes:
+- vocabulary
+- grammar
+- flashcards
+- example resources
 
-**Use your preferred IDE**
+## 🎧 Extra Learning Resources
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📺 YouTube
+Italian learning channels and educational content.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📰 Blogs
+Blogs about Italian language, culture, and learning strategies.
 
-Follow these steps:
+### 🎧 Podcasts
+Podcasts for improving listening comprehension and discovering Italian culture.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎬 Movies & TV Series
+Recommended Italian movies and series for immersive learning.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Italian Tech Ecosystem (coming soon)
 
-# Step 3: Install the necessary dependencies.
-npm i
+This section will highlight technology and innovation in Italy.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🧑‍💻 Open Source Projects
+Notable open-source tools created by Italian developers.
 
-**Edit a file directly in GitHub**
+### 🏢 Tech Companies
+Italian startups and major technology companies.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🎓 Universities
+Universities with strong programs in computer science, engineering, and technology.
 
-**Use GitHub Codespaces**
+### 🔬 Research Labs
+Research groups working in:
+- artificial intelligence
+- robotics
+- space technology
+- advanced computing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🌐 Communities
+Italian developer communities and online groups.
 
-## What technologies are used for this project?
+### 🎤 Conferences & Events
+Technology conferences, meetups, and developer events in Italy.
 
-This project is built with:
+## 🤝 Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome.
+You can help by:
+- adding learning resources
+- suggesting podcasts or movies
+- adding Italian open-source projects
+- improving documentation
 
-## How can I deploy this project?
+Open an issue or submit a pull request.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## ⭐ Support
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+If you find this repository useful, consider giving it a star to help others discover it.
