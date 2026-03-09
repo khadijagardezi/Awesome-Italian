@@ -20,9 +20,18 @@ const resourceData: Record<string, { title: string, icon: React.ElementType, des
     icon: Mic,
     description: "Improve your listening comprehension on the go.",
     links: [
-      { title: "Coffee Break Italian", url: "https://radiolingua.com/coffeebreakitalian/", description: "Structured audio lessons from basics to advanced." },
-      { title: "News in Slow Italian", url: "https://www.newsinslowitalian.com/", description: "Current events discussed at a manageable pace." },
-      { title: "Italiano Automatico", url: "https://www.italianoautomatico.com/", description: "Focus on listening and natural language acquisition." }
+      // Beginner (A1-A2)
+      { title: "Coffee Break Italian", url: "https://coffeebreaklanguages.com/coffeebreakitalian/", description: "Beginner (A1-A2) — Bite-sized lessons perfect for beginners." },
+      { title: "5 Minute Italian", url: "https://joyoflanguages.com/italianpodcast/", description: "Beginner (A1-A2) — Short and clear explanations of grammar and vocabulary." },
+      { title: "ItalianPod101", url: "https://www.italianpod101.com/", description: "Beginner (A1-A2) — Essential phrases and cultural insights for absolute beginners." },
+      // Intermediate (B1-B2)
+      { title: "Podcast Italiano", url: "https://podcastitaliano.com/", description: "Intermediate (B1-B2) — Authentic conversations, stories, and grammar explained in Italian." },
+      { title: "Italiano Automatico", url: "https://www.italianoautomatico.com/", description: "Intermediate (B1-B2) — Great for transitioning from understanding to speaking." },
+      { title: "News in Slow Italian", url: "https://www.newsinslowitalian.com/", description: "Intermediate (B1-B2) — Current events discussed at a manageable pace." },
+      // Advanced (C1-C2)
+      { title: "Il Podcast di Italiano Avanzato", url: "https://italianoavanzato.com/", description: "Advanced (C1-C2) — Deep dives into complex topics and advanced grammar." },
+      { title: "La Lingua Batte", url: "https://www.raiplaysound.it/programmi/lalinguabatte", description: "Advanced (C1-C2) — Exploring the evolution of the Italian language." },
+      { title: "Morgana", url: "https://storielibere.fm/morgana/", description: "Advanced (C1-C2) — Authentic storytelling and biographies of extraordinary women." }
     ]
   },
   blogs: {
