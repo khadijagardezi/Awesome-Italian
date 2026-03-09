@@ -16,7 +16,7 @@ export default function Index() {
   const { getLevelProgress } = useProgress();
 
   return (
-    <div className="min-h-screen">
+    <main className="min-h-screen">
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-italia-green-light via-background to-italia-red-light py-20 md:py-32">
         <div className="container relative z-10 text-center">
