@@ -1,11 +1,17 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Volume2, Search } from "lucide-react";
 import { courseData } from "@/data/courseData";
 import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 export default function Glossary() {
   const [search, setSearch] = useState("");
+  const [limit, setLimit] = useState(20);
+
+  useEffect(() => {
+    setLimit(20);
+  }, [search]);
 
   const allWords = useMemo(() => {
     const words = courseData.flatMap((l) =>
@@ -40,12 +46,13 @@ export default function Glossary() {
   // Group by first letter
   const grouped = useMemo(() => {
     const map: Record<string, typeof filtered> = {};
-    for (const w of filtered) {
+    const displayedWords = filtered.slice(0, limit);
+    for (const w of displayedWords) {
       const letter = w.italian[0].toUpperCase();
       (map[letter] ??= []).push(w);
     }
     return Object.entries(map).sort(([a], [b]) => a.localeCompare(b));
-  }, [filtered]);
+  }, [filtered, limit]);
 
   return (
     <div className="min-h-screen py-12">
@@ -98,6 +105,14 @@ export default function Glossary() {
             </section>
           ))}
         </div>
+
+        {limit < filtered.length && (
+          <div className="mt-8 flex justify-center">
+            <Button variant="outline" onClick={() => setLimit(l => l + 20)}>
+              Show 20 more
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
