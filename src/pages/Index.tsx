@@ -22,8 +22,8 @@ export default function Index() {
         <div className="container relative z-10 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <span className="mb-4 inline-block animate-float text-6xl">🇮🇹</span>
-            <h1 className="mb-4 font-display text-4xl font-bold tracking-tight text-foreground md:text-6xl">
-              Learn Italian,<br />
+            <h1 className="mb-4 font-display text-4xl font-bold tracking-tight text-foreground md:text-6xl">Learn Italian!
+<br />
               
             </h1>
             <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">Your personal journey from "Ciao!" to flowing conversations.
@@ -75,8 +75,8 @@ export default function Index() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0, duration: 0.5 }}
-            >
+              transition={{ delay: 0, duration: 0.5 }}>
+              
               <div className="group block rounded-2xl border-2 border-dashed border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="rounded-full bg-secondary/10 px-3 py-1 text-sm font-bold text-secondary">Pre-A1</span>
