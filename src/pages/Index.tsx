@@ -24,10 +24,10 @@ export default function Index() {
             <span className="mb-4 inline-block animate-float text-6xl">🇮🇹</span>
             <h1 className="mb-4 font-display text-4xl font-bold tracking-tight text-foreground md:text-6xl">
               Learn Italian,<br />
-              
+              Live the Culture
             </h1>
-            <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">Your personal journey from "Ciao!" to flowing conversations.
-
+            <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
+              Your personal journey from "Ciao!" to flowing conversations.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button variant="hero" size="lg" asChild>
@@ -124,6 +124,25 @@ export default function Index() {
                   </Link>
                 </motion.div>);
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* About Us */}
+      <section className="bg-muted/30 py-16">
+        <div className="container">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="mb-6 font-display text-3xl font-bold text-foreground">La Mia Storia</h2>
+            <div className="rounded-2xl border border-border bg-card p-8 text-left shadow-sm">
+              <p className="mb-4 text-lg leading-relaxed text-muted-foreground">
+                Ciao! I'm the creator behind Parla!. Coming from a tech background, I moved to Italy to pursue my advanced degree. 
+                Suddenly immersed in a new world, I had to quickly learn the language and adapt to the beautiful, vibrant Italian culture.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                This platform is built from my own journey—combining structured learning with the real-life scenarios I encountered along the way. 
+                Whether you're moving to Italy, studying abroad, or just love the culture, Parla! is here to help you navigate your own Italian adventure.
+              </p>
+            </div>
           </div>
         </div>
       </section>
