@@ -176,12 +176,10 @@ export default function Index() {
             <h2 className="mb-6 font-display text-2xl font-bold text-foreground">La Mia Storia</h2>
             <div className="rounded-2xl border border-border bg-card p-6 text-left shadow-sm md:p-8">
               <p className="mb-4 text-base leading-relaxed text-muted-foreground">
-                Ciao! I'm the creator behind Parla!. Coming from a tech background, I moved to Italy to pursue my advanced degree. 
-                Suddenly immersed in a new world, I had to quickly learn the language and adapt to the beautiful, vibrant Italian culture.
+                Ciao! I'm the creator of Parla!. I started out in the tech world before taking a huge leap to move to Italy for my advanced degree. Arriving in a completely new country was both thrilling and overwhelming. I had to learn the language from scratch and figure out how to navigate daily life in this incredibly beautiful, vibrant culture.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                This platform is built from my own journey—combining structured learning with the real-life scenarios I encountered along the way. 
-                Whether you're moving to Italy, studying abroad, or just love the culture, Parla! is here to help you navigate your own Italian adventure.
+                I built this platform because I know exactly how it feels to start from zero. Parla! brings together the structured lessons I needed and the real-world situations I actually faced. Whether you're planning a big move, studying abroad, or just dreaming about Italy, I hope this helps you feel a little more confident in your own Italian adventure.
               </p>
             </div>
           </div>
