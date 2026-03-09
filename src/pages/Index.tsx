@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOpen, MessageCircle, Trophy, Zap, Type, BookText, Youtube, Mic, Globe } from "lucide-react";
+import { ArrowRight, BookOpen, MessageCircle, Trophy, Zap, Type, BookText, Youtube, Mic, Globe, Tv } from "lucide-react";
 import { courseData } from "@/data/courseData";
 import { useProgress } from "@/hooks/useProgress";
 
@@ -155,6 +155,14 @@ export default function Index() {
               </div>
               <h3 className="mb-2 font-display text-lg font-bold">Blogs & Reading</h3>
               <p className="text-sm text-muted-foreground">Articles, short stories, and cultural insights to improve your reading.</p>
+            </Link>
+            
+            <Link to="/resources/movies" className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-primary hover:shadow-lg">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+                <Tv className="h-6 w-6" />
+              </div>
+              <h3 className="mb-2 font-display text-lg font-bold">Movies & TV</h3>
+              <p className="text-sm text-muted-foreground">Discover Italian cinema, series, and shows to immerse yourself.</p>
             </Link>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, ExternalLink, Youtube, Mic, Globe } from "lucide-react";
+import { ArrowLeft, ExternalLink, Youtube, Mic, Globe, Tv } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
@@ -33,6 +33,16 @@ const resourceData: Record<string, { title: string, icon: React.ElementType, des
       { title: "Transparent Language Italian Blog", url: "https://blogs.transparent.com/italian/", description: "Regular articles on language, culture, and grammar." },
       { title: "The Local Italy", url: "https://www.thelocal.it/", description: "Italian news in English, great for cultural context." },
       { title: "Il Post", url: "https://www.ilpost.it/", description: "An Italian news site with clear, accessible journalism (for B1+)." }
+    ]
+  },
+  movies: {
+    title: "Movies & TV Shows",
+    icon: Tv,
+    description: "Immerse yourself in Italian cinema and series.",
+    links: [
+      { title: "Netflix in Italian", url: "https://www.netflix.com/", description: "Search for Italian audio/subtitles on Netflix." },
+      { title: "RaiPlay", url: "https://www.raiplay.it/", description: "Free streaming platform from Italy's national broadcaster (may require VPN)." },
+      { title: "Italian Film Festival", url: "https://www.italianfilmfestival.com.au/", description: "Discover contemporary and classic Italian cinema." }
     ]
   }
 };
