@@ -184,7 +184,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
-            <p>🇮🇹 Parla! — Learn Italian, one conversation at a time.</p>
+            <p>Parla! - Learn Italian, one conversation at a time.</p>
           </div>
         </div>
       </footer>
