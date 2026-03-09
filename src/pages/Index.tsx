@@ -175,7 +175,7 @@ export default function Index() {
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <h2 className="mb-6 font-display text-2xl font-bold text-foreground">La Mia Storia</h2>
             <div className="rounded-2xl border border-border bg-card p-6 text-left shadow-sm md:p-8">
-              <p className="mb-4 text-base leading-relaxed text-muted-foreground">Ciao! I'm the creator of Parla!. I started out in the tech world before taking a huge leap to move to Italy for my advanced degree. Arriving in a completely new country was both thrilling and overwhelming. I built this platform because I know exactly how it feels to start from zero. 
+              <p className="mb-4 text-base leading-relaxed text-muted-foreground">Ciao! I'm the creator of Parla! I built this platform because I know exactly how it feels to start from zero. 
 
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">Parla! brings together the structured lessons I needed and the real-world situations I actually faced. Whether you're planning a big move, studying abroad, or just dreaming about Italy, I hope this helps you feel a little more confident in your own Italian adventure.
