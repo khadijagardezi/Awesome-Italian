@@ -75,8 +75,8 @@ export default function Index() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0, duration: 0.5 }}
-            >
+              transition={{ delay: 0, duration: 0.5 }}>
+              
               <div className="group block rounded-2xl border-2 border-dashed border-border bg-card p-8 transition-all hover:border-primary hover:shadow-xl">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="rounded-full bg-secondary/10 px-3 py-1 text-sm font-bold text-secondary">Pre-A1</span>
@@ -175,11 +175,11 @@ export default function Index() {
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <h2 className="mb-6 font-display text-2xl font-bold text-foreground">La Mia Storia</h2>
             <div className="rounded-2xl border border-border bg-card p-6 text-left shadow-sm md:p-8">
-              <p className="mb-4 text-base leading-relaxed text-muted-foreground">
-                Ciao! I'm the creator of Parla!. I started out in the tech world before taking a huge leap to move to Italy for my advanced degree. Arriving in a completely new country was both thrilling and overwhelming. I had to learn the language from scratch and figure out how to navigate daily life in this incredibly beautiful, vibrant culture.
+              <p className="mb-4 text-base leading-relaxed text-muted-foreground">Ciao! I'm the creator of Parla!. I started out in the tech world before taking a huge leap to move to Italy for my advanced degree. Arriving in a completely new country was both thrilling and overwhelming. I built this platform because I know exactly how it feels to start from zero. 
+
               </p>
-              <p className="text-base leading-relaxed text-muted-foreground">
-                I built this platform because I know exactly how it feels to start from zero. Parla! brings together the structured lessons I needed and the real-world situations I actually faced. Whether you're planning a big move, studying abroad, or just dreaming about Italy, I hope this helps you feel a little more confident in your own Italian adventure.
+              <p className="text-base leading-relaxed text-muted-foreground">Parla! brings together the structured lessons I needed and the real-world situations I actually faced. Whether you're planning a big move, studying abroad, or just dreaming about Italy, I hope this helps you feel a little more confident in your own Italian adventure.
+
               </p>
             </div>
           </div>
