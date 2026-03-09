@@ -14,9 +14,6 @@ export function Header() {
           </span>
         </Link>
         <nav className="flex items-center gap-1 overflow-x-auto">
-          <Button variant={location.pathname.startsWith("/levels") ? "default" : "ghost"} size="sm" asChild>
-            <Link to="/levels"><GraduationCap className="mr-1 h-4 w-4" />Levels</Link>
-          </Button>
           <Button variant={location.pathname === "/flashcards" ? "default" : "ghost"} size="sm" asChild>
             <Link to="/flashcards"><BookOpen className="mr-1 h-4 w-4" />Flashcards</Link>
           </Button>
