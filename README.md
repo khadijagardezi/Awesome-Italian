@@ -36,7 +36,22 @@ Italian learning channels and educational content.
 Blogs about Italian language, culture, and learning strategies.
 
 ### Podcasts
-Podcasts for improving listening comprehension and discovering Italian culture.
+Podcasts for improving listening comprehension and discovering Italian culture, categorized by level:
+
+**Beginner (A1 - A2)**
+- [Coffee Break Italian](https://coffeebreaklanguages.com/coffeebreakitalian/) - Bite-sized lessons perfect for beginners.
+- [5 Minute Italian](https://joyoflanguages.com/italianpodcast/) - Short and clear explanations of grammar and vocabulary.
+- [ItalianPod101](https://www.italianpod101.com/) - Essential phrases and cultural insights for absolute beginners.
+
+**Intermediate (B1 - B2)**
+- [Podcast Italiano](https://podcastitaliano.com/) - Authentic conversations, stories, and grammar explained completely in Italian.
+- [Italiano Automatico](https://www.italianoautomatico.com/) - Great for transitioning from understanding to speaking.
+- [Learn Italian with Lucrezia](https://www.youtube.com/user/lucreziaoddone) - Everyday vocabulary, culture, and vlogs in accessible Italian.
+
+**Advanced (C1 - C2)**
+- [Il Podcast di Italiano Avanzato](https://italianoavanzato.com/) - Deep dives into complex topics, expressions, and advanced grammar.
+- [La Lingua Batte (Rai Play Sound)](https://www.raiplaysound.it/programmi/lalinguabatte) - A fascinating show exploring the evolution of the Italian language.
+- [Morgana](https://storielibere.fm/morgana/) - Authentic Italian storytelling and biographies of extraordinary women.
 
 ### Movies & TV Series
 Recommended Italian movies and series for immersive learning.
