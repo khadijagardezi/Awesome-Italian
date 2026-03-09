@@ -40,14 +40,13 @@ const resourceData: Record<string, { title: string, icon: React.ElementType, des
     icon: Tv,
     description: "Immerse yourself in Italian cinema and series.",
     links: [
-      { title: "Netflix in Italian", url: "https://www.netflix.com/", description: "Search for Italian audio/subtitles — try Suburra, Baby, or Summertime." },
-      { title: "RaiPlay", url: "https://www.raiplay.it/", description: "Free streaming from Italy's national broadcaster with news, series & films (may need VPN)." },
       { title: "La Grande Bellezza (2013)", url: "https://www.imdb.com/title/tt2358891/", description: "Oscar-winning masterpiece — rich vocabulary and Roman culture." },
       { title: "Cinema Paradiso (1988)", url: "https://www.imdb.com/title/tt0095765/", description: "Classic Sicilian coming-of-age film, great for listening practice." },
+      { title: "La Vita è Bella (1997)", url: "https://www.imdb.com/title/tt0118799/", description: "Heartwarming and tragic masterpiece by Roberto Benigni." },
       { title: "L'Amica Geniale (My Brilliant Friend)", url: "https://www.imdb.com/title/tt7278862/", description: "HBO/Rai series based on Elena Ferrante's novels — Neapolitan and standard Italian." },
       { title: "Gomorra: La Serie", url: "https://www.imdb.com/title/tt2049116/", description: "Gritty crime drama set in Naples — intense dialogue and slang." },
-      { title: "Boris", url: "https://www.imdb.com/title/tt1SEries/", description: "Cult Italian comedy about a chaotic TV production set — hilarious and very colloquial." },
-      { title: "Italian Film Festival", url: "https://www.italianfilmfestival.com.au/", description: "Discover contemporary and classic Italian cinema events." }
+      { title: "Boris", url: "https://www.imdb.com/title/tt1085444/", description: "Cult Italian comedy about a chaotic TV production set — hilarious and very colloquial." },
+      { title: "Suburra: Blood on Rome", url: "https://www.imdb.com/title/tt6188844/", description: "Action-packed thriller series exploring politics and crime in Rome." }
     ]
   }
 };
